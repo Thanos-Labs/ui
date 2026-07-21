@@ -1,4 +1,5 @@
 import { DualRangeSliderDemo } from "@/components/dual-range-slider-demo"
+import { ShortcutIconButtonDemo } from "@/components/shortcut-icon-button-demo"
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
           A custom registry for distributing code using shadcn.
         </p>
       </header>
-      <DualRangeSliderDemo />
+      <div className="flex flex-col gap-8">
+        <DualRangeSliderDemo />
+        <ShortcutIconButtonDemo />
+      </div>
     </main>
   )
 }

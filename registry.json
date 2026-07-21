@@ -14,6 +14,19 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "shortcut-icon-button",
+      "type": "registry:ui",
+      "title": "Shortcut Icon Button",
+      "description": "An icon button with a visible browser access key hint.",
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/shortcut-icon-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }
